@@ -1,0 +1,171 @@
+body {
+font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	background: #FFFFFF;
+}
+#wrapper {
+	margin: 0 auto;
+	width: 100%;
+	min-width: 960px;
+	color: #000000;
+}
+#header {
+	margin-left: 220px;
+	width: 80%;
+	min-width: 960px;
+	font-size: 150%;
+	padding: 10px 20px;
+	background-repeat: no-repeat;
+	overflow: auto;
+	border-bottom: thin solid #000000;
+}
+h1 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+#nav {
+	float: left;
+	width: 150px;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	letter-spacing: 0.lem;
+	border-right:thin solid #000000;
+	margin-top: 100px;
+	font-style: italic;
+
+}
+.aboutpic {
+	margin-right: 70px;
+	margin-top: 50px;
+}
+#contentabout {
+	padding: 5px 130px;
+	overflow: auto;
+	}
+
+#content {
+	color: #000000;
+	padding: 10px 100px;
+	overflow: auto;
+	
+}
+#footer {
+	font-size: 70%;
+	text-align: center;
+	padding: 10px;
+	clear: both;
+}
+
+h2 {
+	color: #000000;
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	text-align: center;
+}
+#floatright {
+	float: right;
+	margin: 10px;
+}
+#nav ul {
+	margin: 0;
+	padding: 0;
+}
+#nav a {
+	text-decoration: none;
+	padding: 20px;
+	display: block;
+	border-bottom: 1px solid #ffffff;
+}
+#nav a:link {
+	color: #000000;
+}
+#nav a:visited {
+	color: #eaeaea;
+}
+#nav a:hover {
+	color: #869dc7;
+}
+
+/* SLIMBOX */
+
+#lbOverlay {
+	position: fixed;
+	z-index: 9999;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	cursor: pointer;
+}
+
+#lbCenter, #lbBottomContainer {
+	position: absolute;
+	z-index: 9999;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.lbLoading {
+	background: #fff url(loading.gif) no-repeat center;
+}
+
+#lbImage {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 10px solid #fff;
+	background-repeat: no-repeat;
+}
+
+#lbPrevLink, #lbNextLink {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 50%;
+	outline: none;
+}
+
+#lbPrevLink {
+	left: 0;
+}
+
+#lbPrevLink:hover {
+	background: transparent url(prevlabel.gif) no-repeat 0 15%;
+}
+
+#lbNextLink {
+	right: 0;
+}
+
+#lbNextLink:hover {
+	background: transparent url(nextlabel.gif) no-repeat 100% 15%;
+}
+
+#lbBottom {
+	font-family: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	line-height: 1.4em;
+	text-align: left;
+	border: 10px solid #fff;
+	border-top-style: none;
+}
+
+#lbCloseLink {
+	display: block;
+	float: right;
+	width: 66px;
+	height: 22px;
+	background: transparent url(closelabel.gif) no-repeat center;
+	margin: 5px 0;
+	outline: none;
+}
+
+#lbCaption, #lbNumber {
+	margin-right: 71px;
+}
+
+#lbCaption {
+	font-weight: bold;
+}
+
